@@ -1,0 +1,95 @@
+---
+title: "Predict gender using weight and height"
+author: "Sérgio Giraldo"
+date: "2019-07-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libs, include=FALSE}
+library(readr)
+library(caret)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r}
+#get the dataset
+heights_weights <- read_csv("heights_weights.csv")
+
+```
+
+There are 5000 observations for men and 5000 for women, the dataset is balanced
+
+```{r}
+summary(heights_weights)
+
+ggplot(heights_weights,aes(Height,Weight)) +
+  geom_point(aes(colour = Male), 
+             show.legend = F, size = 1)
+```
+
+
+Looking at the graph above, using just height and weight may not lead to good results. This could be improved by including more features.
+
+For now, let's try a simple model using logistic regression. Notice the dataset is separated 80% for training and 20% for prediction.
+
+```{r}
+train <- heights_weights[1:8000,]
+test <- heights_weights[8001:10000,]
+```
+
+## The model
+
+
+## Training
+
+```{r}
+train$Male <- as.factor(as.numeric(as.character(train$Male)))
+
+model <- glm(Male ~.,
+              family=binomial,
+              data=train)
+
+print(summary(model))
+
+plot(model)
+```
+
+
+### Predicting
+
+```{r}
+featureImportance <- varImp(model, scale = FALSE)
+featureImportanceDf <- data.frame(FEATURE = row.names(featureImportance),
+                                  IMPORTANCE = featureImportance$Overall)
+
+featureImportanceDf %>% 
+  mutate(IMPORTANCE = round(IMPORTANCE, 4)) %>% 
+  arrange(-IMPORTANCE)
+
+trainingPred <- predict(model,
+                        train,
+                        type = "response")
+
+trainingPred <- data.frame(trainingPred) %>% 
+  mutate(gender = as.factor(ifelse(trainingPred > 0.3, 1, 0)))
+
+confusionMatrixCalculated <- confusionMatrix(data = trainingPred$gender,
+                                             reference = train$Male)
+
+print(confusionMatrixCalculated)
+```
+
+## Conclusions
+
+Model reached a satisfactory accuracy of **91%**. 
+This could be improved by enriching the dataset with others features.
+
+
+
+
