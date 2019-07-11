@@ -1,0 +1,143 @@
+---
+title: "Tooth Growth dataset"
+author: "Sergio Giraldo"
+date: "June, 2019"
+output: html_document
+---
+
+## Summary
+
+In this project the tooth growth dataset will be analyzed using hypothesis tests.
+
+ToothGrowth data set contains the result from an experiment studying the effect of vitamin C on tooth growth in 60 Guinea pigs. 
+
+Each animal received one of three dose levels of vitamin C (0.5, 1, and 2 mg/day) by one of two delivery methods, (orange juice (coded as *OJ*) or ascorbic acid (a form of vitamin C and coded as *VC*).
+
+## Analysis
+
+### Load libraries
+
+```{r, results='hide', warning=FALSE, message=FALSE}
+library(ggplot2)
+library(psych)
+```
+
+### Loading the data
+
+```{r}
+data(ToothGrowth)
+```
+
+### Exploring the data
+
+Structure of the data:
+
+```{r}
+dim(ToothGrowth)
+
+str(ToothGrowth)
+
+describe(ToothGrowth)
+```
+
+The column `supp` is a factor containing two levels:
+
+* OJ
+* VC
+
+Are there any missing data?
+
+```{r}
+sum(is.na(ToothGrowth))
+```
+
+There are no missing values.
+
+How the head of the data looks like:
+
+```{r}
+head(ToothGrowth)
+```
+
+Let's see the teeth growth by the dosage
+
+```{r}
+ggplot(ToothGrowth, aes(x=factor(dose), y=len, fill=factor(dose))) +
+  geom_boxplot() + 
+  facet_grid(.~supp) +
+  xlab("Dosage") +   
+  ylab("Teeth Growth") +  
+  ggtitle("Teeth Growth by supplement type")
+```
+
+This analysis show us that the dosage affects the tooth length, the larger the dosage, the longer the tooth.
+
+### Confidence intervals and hypothesis testing
+
+This section tries to answer the question if there is a correllation between the tooth growth and the supplement dosage.
+
+#### Assumptions
+
+* The variables must be independent and identically distributed (i.i.d.);
+
+* Variances of tooth growth are different when using different supplement and dosage;
+
+* Tooth growth follows a normal distribution.
+
+#### Dosage as factor
+
+Let our null hypothesis to be `there is no difference in tooth growth between dosage`. 
+
+Let our alternate hypothesis to be `there are more tooth growth when the dosage increases`.
+
+We split the data set into 3 datasets, one for each of the doses. This will allow to run the hypothesis test on all the three subsets.
+
+```{r}
+dose_05 <-subset(ToothGrowth, dose %in% c(0.5, 1.0))
+dose_1 <-subset(ToothGrowth, dose %in% c(0.5, 2.0))
+dose_2 <-subset(ToothGrowth, dose %in% c(1.0, 2.0))
+```
+
+Let's run the test on each subset
+
+```{r}
+t.test(len~dose, data=dose_05, paired=FALSE, conf.level = 0.95)
+```
+
+```{r}
+t.test(len~dose, data=dose_1, paired=FALSE, conf.level = 0.95)
+```
+
+```{r}
+t.test(len~dose, data=dose_2, paired=FALSE, conf.level = 0.95)
+```
+
+In All 3 cases, the p-values (1.268e-07, 1.906e-05, 4.398e-14) are close to 0,lower than 0.05 (the default value for the tolerance of the error alpha), and the null hypothesis is rejected.
+
+That can be interpreted as that is very likely that dosage has effect, and higher dosages casuses higher tooth growth.
+
+#### Supplement as factor
+
+Let our null hypothesis to be `there is no difference in tooth growth when using the supplement OJ and VC`.
+
+Let our alternate hypothesis to be `there are more tooth growth when using supplement OJ than VC`.
+
+```{r}
+# split data set, it doesnt matter the dosage
+OJ <- ToothGrowth$len[ToothGrowth$supp == 'OJ']
+VC <- ToothGrowth$len[ToothGrowth$supp == 'VC']
+```
+
+Let's run the test on each subset
+
+```{r}
+t.test(OJ, VC, alternative = "two.sided", paired = FALSE, var.equal = FALSE, conf.level = 0.95)
+```
+
+As the p-value (0.06063) is greater than 0.05 (the default value for the tolerance of the error alpha), the null hypothesis can't be rejected. 
+
+One can conclude that it is unlikely that supplement OJ has a greater effect on tooth growth than supplement VC.
+
+## Conclusion
+
+Increasing the dose has an effect on tooth growth and the supplement type has not. 
