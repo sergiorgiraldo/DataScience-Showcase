@@ -22,3 +22,6 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 
 * [Transmission in cars](Transmission in cars/readme.md)
 
+* [Products Relationship](Products Relationship/readme.md)
+
+* [Reinforcement Learning/Frozen lake](Reinforcement Learning/Frozen Lake/readme.md)
