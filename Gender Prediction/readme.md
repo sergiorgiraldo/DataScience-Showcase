@@ -6,4 +6,4 @@ A dataset of 10.000 samples of people’s weight and height, with annotated gend
 
 ---
 
-[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Gender%20Prediction)
+[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Gender%20Prediction){:target="_blank"}
