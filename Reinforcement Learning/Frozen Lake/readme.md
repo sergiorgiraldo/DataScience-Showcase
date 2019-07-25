@@ -6,4 +6,4 @@ An explanation for the environment is [here](https://www.analyticsindiamag.com/o
 
 ---
 
-[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Reinforcement%20Learning/Frozen%20Lake)
+[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Reinforcement%20Learning/Frozen%20Lake){:target="_blank"}
