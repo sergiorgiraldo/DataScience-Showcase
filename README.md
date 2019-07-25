@@ -6,4 +6,4 @@ This can be seen as an introduction to my hands-on knowledge in Data Science rea
 
 ---
 
-[Gender Prediction](./Gender Prediction)
+[Gender Prediction](Gender Prediction/readme.md)
