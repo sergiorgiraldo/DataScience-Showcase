@@ -1,0 +1,273 @@
+---
+title: "Product relationship"
+author: "Sergio Giraldo"
+date: "2019-07-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries, include=FALSE}
+library(readr)
+library(arules)
+library(arulesViz)
+library(dplyr)
+library(data.table)
+library(magrittr)
+library(UpSetR)
+```
+
+## Motivation
+
+Given a base of user with a large set of product offerinngs, let's study which products are used together.
+
+
+## Analysis
+
+There are 5.497.517 distinct customers.
+
+```{r load, include=FALSE}
+results <- read.csv2("results.csv")
+colnames(results) <- c("CUSTOMER_ID","PRODUCT")
+```
+
+```{r one-hot-encoding, include=FALSE}
+#results with one hot encoding, not grouped
+resultsOneHotEncoding <- results
+for(unique_value in unique(resultsOneHotEncoding$PRODUCT)){
+  resultsOneHotEncoding[unique_value] <- ifelse(resultsOneHotEncoding$PRODUCT == unique_value, 1, 0)
+}
+resultsOneHotEncoding$PRODUCT <- NULL
+
+#results with one hot encoding, grouped
+resultsOneHotEncodingGrouped <- resultsOneHotEncoding %>% group_by(CUSTOMER_ID) %>% summarise_all(sum)
+```
+
+```{r binarized}
+#results with binary representation
+resultsGrouped <- resultsOneHotEncoding
+
+resultsGrouped$PRODUCTS <-
+paste0(
+resultsGrouped$PRODUCT_P1,
+resultsGrouped$PRODUCT_P2,
+resultsGrouped$PRODUCT_P3,
+resultsGrouped$PRODUCT_P4,
+resultsGrouped$PRODUCT_P5,
+resultsGrouped$PRODUCT_P6,
+resultsGrouped$PRODUCT_P7,
+resultsGrouped$PRODUCT_P8,
+resultsGrouped$PRODUCT_P9,
+resultsGrouped$PRODUCT_P10,
+resultsGrouped$PRODUCT_P11,
+resultsGrouped$PRODUCT_P12,
+resultsGrouped$PRODUCT_P13,
+resultsGrouped$PRODUCT_P14,
+resultsGrouped$PRODUCT_P15,
+resultsGrouped$PRODUCT_P16,
+resultsGrouped$PRODUCT_P17,
+resultsGrouped$PRODUCT_P18,
+resultsGrouped$PRODUCT_P19,
+resultsGrouped$PRODUCT_P20,
+resultsGrouped$PRODUCT_P21,
+resultsGrouped$PRODUCT_P22,
+resultsGrouped$PRODUCT_P23,
+resultsGrouped$PRODUCT_P24,
+resultsGrouped$PRODUCT_P25,
+resultsGrouped$PRODUCT_P26,
+resultsGrouped$PRODUCT_P27,
+resultsGrouped$PRODUCT_P28,
+resultsGrouped$PRODUCT_P29,
+resultsGrouped$PRODUCT_P30)
+
+resultsGrouped$PRODUCT_P1<- NULL
+resultsGrouped$PRODUCT_P2<- NULL
+resultsGrouped$PRODUCT_P3<- NULL
+resultsGrouped$PRODUCT_P4<- NULL
+resultsGrouped$PRODUCT_P5<- NULL
+resultsGrouped$PRODUCT_P6<- NULL
+resultsGrouped$PRODUCT_P7<- NULL
+resultsGrouped$PRODUCT_P8<- NULL
+resultsGrouped$PRODUCT_P9<- NULL
+resultsGrouped$PRODUCT_P10<- NULL
+resultsGrouped$PRODUCT_P11<- NULL
+resultsGrouped$PRODUCT_P12<- NULL
+resultsGrouped$PRODUCT_P13<- NULL
+resultsGrouped$PRODUCT_P14<- NULL
+resultsGrouped$PRODUCT_P15<- NULL
+resultsGrouped$PRODUCT_P16<- NULL
+resultsGrouped$PRODUCT_P17<- NULL
+resultsGrouped$PRODUCT_P18<- NULL
+resultsGrouped$PRODUCT_P19<- NULL
+resultsGrouped$PRODUCT_P20<- NULL
+resultsGrouped$PRODUCT_P21<- NULL
+resultsGrouped$PRODUCT_P22<- NULL
+resultsGrouped$PRODUCT_P23<- NULL
+resultsGrouped$PRODUCT_P24<- NULL
+resultsGrouped$PRODUCT_P25<- NULL
+resultsGrouped$PRODUCT_P26<- NULL
+resultsGrouped$PRODUCT_P27<- NULL
+resultsGrouped$PRODUCT_P28<- NULL
+resultsGrouped$PRODUCT_P29<- NULL
+resultsGrouped$PRODUCT_P30<- NULL
+
+resultsBinarized <- 
+  resultsGrouped %>% 
+  group_by(CUSTOMER_ID) %>% 
+  summarise(PRODUCT = substr(paste(rev(as.integer(intToBits(sum(strtoi(PRODUCTS, base = 2))))), collapse=""),3,32))
+
+#results binary with frequency
+resultsBinarizedWithFrequency <-
+  resultsBinarized %>% group_by(PRODUCT) %>% tally() %>% arrange(desc(n))  
+```
+
+### Totais por produto
+```{r totals-summary}
+results %>% group_by(PRODUCT) %>% summarise(TOTAL = n()) %>% arrange(TOTAL) %>% data.table()
+```
+
+### Combinations
+
+#### Summary
+
+```{r graph}
+resultsGraph <- results %>% mutate(QTD = 1)
+resultsGraph %<>% tidyr::spread(PRODUCT, QTD)
+resultsGraph[is.na(resultsGraph)] <- 0
+resultsGraph %<>% janitor::clean_names()
+
+upset(
+  resultsGraph,
+  nsets = 30,
+  mb.ratio = c(0.5, 0.5),
+  order.by = c("freq", "freq"),
+  decreasing = c(TRUE,TRUE)
+)
+```
+
+```{r}
+resultsAsTransactions <- read.transactions("results.csv", format = "single", sep = ";", cols = c(1,2))
+summary(resultsAsTransactions)
+```
+
+#### Distinct combinations of products
+```{r}
+resultsBinarized %>% group_by("PRODUCT") %>% summarize(cnt = n())
+```
+
+#### With more than 0.5% of total users
+
+```{r}
+rules2 <- arules::apriori(resultsAsTransactions, parameter = list(supp = 0.005, conf = 0, target = "frequent itemsets"))
+plot(rules2)
+inspect(rules2)
+```
+
+### Clustering - Products approach
+
+```{r clusters-by-product}
+source("fill_bucket.R")
+```
+
+Following criterias were used:
+
+* No repetition of products in buckets;
+* Buckets have same amount of products;
+* Buckets in decreasing order of total users.
+
+#### Bucket1
+
+```{r}
+print(bucket1)
+```
+
+#### Bucket2
+
+```{r}
+print(bucket2)
+```
+
+#### Bucket3
+
+```{r}
+print(bucket3)
+```
+
+#### Bucket4
+
+```{r}
+print(bucket4)
+```
+
+#### Bucket5
+
+```{r}
+print(bucket5)
+```
+
+
+### Clustering - Users approach
+
+```{r clusters-by-users}
+source("fill_bucket_by_users.R")
+```
+
+Following criterias were used:
+
+* No repetition of users in buckets;
+* Buckets dont necessarily have same amount of products;
+* Buckets in decreasing order of total users.
+
+#### Bucket1
+
+```{r}
+print(paste0("Total users: ", buckets$bucket1$n))
+print("Products:")
+bucket1_configs %>% purrr::reduce(c) %>% unique      
+```
+
+#### Bucket2
+
+```{r}
+print(paste0("Total users: ", buckets$bucket2$n))
+print("Products:")
+bucket2_configs %>% purrr::reduce(c) %>% unique      
+```
+
+#### Bucket3
+
+```{r}
+print(paste0("Total users: ", buckets$bucket3$n))
+print("Products:")
+bucket3_configs %>% purrr::reduce(c) %>% unique      
+
+```
+
+#### Bucket4
+
+```{r}
+print(paste0("Total users: ", buckets$bucket4$n))
+print("Products:")
+bucket4_configs %>% purrr::reduce(c) %>% unique      
+
+```
+
+#### Bucket5
+
+```{r}
+print(paste0("Total users: ", buckets$bucket5$n))
+print("Products:")
+bucket5_configs %>% purrr::reduce(c) %>% unique      
+
+```
+
+#### Bucket6
+
+```{r}
+print(paste0("Total users: ", buckets$bucket6$n))
+print("Products:")
+bucket6_configs %>% purrr::reduce(c) %>% unique      
+
+```
