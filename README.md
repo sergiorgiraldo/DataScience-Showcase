@@ -6,4 +6,4 @@ This can be seen as an introduction to my hands-on knowledge in Data Science rea
 
 ---
 
-[Baseball Win Prediction]
+(Baseball Win Prediction)
