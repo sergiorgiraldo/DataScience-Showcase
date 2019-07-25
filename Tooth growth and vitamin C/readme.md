@@ -7,4 +7,4 @@ The goal of the study is to explore the **tooth grow** dataset and answer these 
 
 ---
 
-[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Tooth%20growth%20and%20vitamin%20C)
+[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Tooth%20growth%20and%20vitamin%20C){:target="_blank"}
