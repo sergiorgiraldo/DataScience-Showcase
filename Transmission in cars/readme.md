@@ -7,4 +7,4 @@ The goal of the study is to explore the **mtcars** dataset and answer these ques
 
 ---
 
-[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Transmission%20in%20cars)
+[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Transmission%20in%20cars){:target="_blank"}
