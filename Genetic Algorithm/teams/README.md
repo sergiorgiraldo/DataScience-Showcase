@@ -4,4 +4,4 @@ Given that we have limited space in the floor, a bunch of teams with dependancie
 
 ---
 
-[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Genetic%20Algorithm/teams)
+[link](https://github.com/sergiorgiraldo/DataScience-Showcase/tree/master/Genetic%20Algorithm/teams){:target="_blank"}
