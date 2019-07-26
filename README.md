@@ -1,6 +1,6 @@
 # DataScience-Showcase
 
-Sample projects in Data Sciencem using python or R.
+Sample projects in Data Science using python or R.
 
 This can be seen as an introduction to my hands-on knowledge in Data Science realm.
 
@@ -25,3 +25,5 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 * [Products Relationship](Products Relationship/readme.md)
 
 * [Reinforcement Learning/Frozen lake](Reinforcement Learning/Frozen Lake/readme.md)
+
+* [Weather events](Weather events/readme.md)
