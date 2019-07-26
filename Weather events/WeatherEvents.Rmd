@@ -1,0 +1,234 @@
+---
+title: "Analysis of the effects of the weather events on public health and economics accros the United States"
+author: "Sergio Giraldo"
+date: "2019-05-02"
+output: html_document
+---
+
+```{r, results='hide', warning=FALSE, message=FALSE}
+library(ggplot2)
+library(dplyr)
+library(gridExtra)
+```
+
+## Synopsis
+
+Wheater events may have a big impact on the public health and economics. The goal of this analysis is to explore the U.S. National Oceanic and Atmospheric Administration's (NOAA) storm database and answer the questions which types of events are most harmful with respect to population health and have the greatest economic consequences. The NOAA database tracks characteristics of major storms and weather events in the United States from 1950 to 2011, including when and where they occur, as well as estimates of any fatalities, injuries, and property damage.
+
+## Exploring the data
+
+### Loading the data
+
+The data for this analysis can be downloaded from the following location :
+
+* [Storm Data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2) [bzip2]
+
+Documentation can be downloaded from the following locations :
+
+* [National Weather Service Storm Data
+Documentation](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf)
+* [National Climatic Data Center Storm Events FAQ](https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf)
+
+```{r, cache=TRUE, message=FALSE, results='hide', warning=FALSE}
+url <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
+
+dir.create("data")
+download.file(url, destfile = "./data/StormData.csv.bz2", method="curl")
+
+stormdata <- read.csv ("./data/StormData.csv.bz2", header=TRUE, stringsAsFactors=FALSE)
+```
+
+Let's explore data size
+
+```{r}
+dim(stormdata)
+```
+
+There are 902.297 observations from 1950 to 2011
+
+Structure of the data:
+
+```{r}
+str(stormdata)
+```
+
+We would be interested in the following columns :
+
+* `EVTYPE`: wheater event type;
+* `FATALITIES`: the number of fatalities;
+* `INJURIES`: the number of injuries;
+* `PROPDMG`: the property damage estimates as actual dollar amounts;
+* `PROPDMGEXP`: Alphabetical characters used to signify magnitude. For example "K" for thousands, "M" for millions and "B" for billions;
+* `CROPDMG`: the crop damage estimates as actual dollar amounts;
+* `CROPDMGEXP`: Alphabetical characters used to signify magnitude. For example "K" for thousands, "M" for millions and "B" for billions.
+
+## Analysing and processing the data
+
+Let's subset the data with the features that are of interest
+
+```{r}
+data <- stormdata[, c("EVTYPE", "FATALITIES", "INJURIES", "PROPDMG", "PROPDMGEXP","CROPDMG", "CROPDMGEXP")]
+```
+
+There are no missing values in the subset of selected storm data.
+
+```{r}
+sum(is.na(data))
+```
+
+### Handling specific case of economic damage values
+
+Features `PROPDMGEXP` and `CROPDMGEXP` contain the magnitude of the damage estimates from `PROPDMG` and `CROPDMG` respectively.
+
+The values for `PROPDMGEXP` are:
+
+```{r}
+unique(data$PROPDMGEXP)
+```
+
+The values for `CROPDMGEXP` are:
+
+```{r}
+unique(data$CROPDMGEXP)
+```
+
+We can assume the following exponent based on the symbol:
+
+Symbol|Exponent (\(10^x\))
+--- | ---
+`""` or `?` or `-` or `?` or `0`|0
+`+` or `1`|1
+`2` or `h` or `H`|2
+`3` or `k` or `K`|3
+`4`|4
+`5`|5
+`m` or `M` or `6`|6
+`7`|7
+`8`|8
+`9`|9
+
+Let's convert `PROPDMG` and `CROPDMG` based on the exponents
+
+```{r}
+# Property damage
+data$PROPDMGEXP <- gsub("^$|-|\\?|0",  1E0, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[1|\\+]",  1E1, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[2|hH]", 1E2, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[3|kK]", 1E3, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[4]", 1E4, data$PROPDMGEXP) 
+data$PROPDMGEXP <- gsub("[5]", 1E5, data$PROPDMGEXP) 
+data$PROPDMGEXP <- gsub("[mM]|6", 1E6, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[7]", 1E7, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[8]", 1E8, data$PROPDMGEXP)
+data$PROPDMGEXP <- gsub("[bB]", 1E9, data$PROPDMGEXP)
+
+data$PROPDMG <- data$PROPDMG * as.numeric(data$PROPDMGEXP)
+
+# Crop damage
+data$CROPDMGEXP <- gsub("^$|-|\\?|0",  1E0, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[1|\\+]",  1E1, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[2|hH]", 1E2, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[3|kK]", 1E3, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[4]", 1E4, data$CROPDMGEXP) 
+data$CROPDMGEXP <- gsub("[5]", 1E5, data$CROPDMGEXP) 
+data$CROPDMGEXP <- gsub("[mM]|6", 1E6, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[7]", 1E7, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[8]", 1E8, data$CROPDMGEXP)
+data$CROPDMGEXP <- gsub("[bB]", 1E9, data$CROPDMGEXP)
+
+data$CROPDMG <- data$CROPDMG * as.numeric(data$CROPDMGEXP)
+```
+
+## Results
+
+### 10 most harmful wheater event related to fatalities and injuries
+
+Summing the fatalities and injuries by weather event type.
+
+```{r}
+fatalities <- aggregate(data$FATALITIES, by = list(data$EVTYPE), sum)
+injuries <- aggregate(data$INJURIES, by = list(data$EVTYPE), sum)
+
+colnames(fatalities) <- c("EVTYPE", "FATALITIES")
+colnames(injuries) <- c("EVTYPE", "INJURIES")
+```
+
+Keep the top 10 fatalities and injuries
+
+```{r}
+top_10_fatalities <- arrange(fatalities, desc(FATALITIES))[1:10, ]
+top_10_injuries <- arrange(injuries, desc(INJURIES))[1:10, ]
+```
+
+Now, let's plot 10 most harmful event types related to fatalities and injuries
+
+```{r}
+ggplot(top_10_fatalities, aes(x = EVTYPE, y = FATALITIES)) + 
+    geom_bar(stat='identity') +
+    ggtitle('Top 10 wheater events for fatalities') +
+    xlab('Type of event') +
+    ylab('Total number of deaths') +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplot(top_10_injuries, aes(x = EVTYPE, y = INJURIES)) + 
+    geom_bar(stat='identity') +
+    ggtitle('Top 10 wheater events for injuries') +
+    xlab('Type of event') +
+    ylab('Total number of Injuries') +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+
+**Figure 1,2: Most harmful weather events related to deaths and injuries from 1950 to 2011**
+
+The most harmful weather event is TORNADO for both fatalities and injuries.
+
+### 10 most harmful wheater event related to property damage and crop
+
+Summing the fatalities and injuries by weather event type.
+
+```{r}
+prop_damage <- aggregate(data$PROPDMG, by = list(data$EVTYPE), sum)
+crop_damage <- aggregate(data$CROPDMG, by = list(data$EVTYPE), sum)
+
+colnames(prop_damage) <- c("EVTYPE", "PROPDMG")
+colnames(crop_damage) <- c("EVTYPE", "CROPDMG")
+```
+
+Keep the top 10 property and crop damages
+
+```{r}
+top_10_prop_dam <- arrange(prop_damage, desc(PROPDMG))[1:10, ]
+top_10_crop_dam <- arrange(crop_damage, desc(CROPDMG))[1:10, ]
+```
+
+Now, let's plot 10 most harmful event types related to fatalities and injuries
+
+```{r}
+ggplot(top_10_prop_dam, aes(x = EVTYPE, y = PROPDMG)) + 
+    geom_bar(stat='identity') +
+    ggtitle('Top 10 wheater events for property damage') +
+    xlab('Type of event') +
+    ylab('Cost in US dollars') +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggplot(top_10_crop_dam, aes(x = EVTYPE, y = CROPDMG)) + 
+    geom_bar(stat='identity') +
+    ggtitle('Top 10 wheater events for crop damage') +
+    xlab('Type of event') +
+    ylab('Cost in US dollars') +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+
+**Figure 3,4: Most harmful weather events related to property and crop damage from 1950 to 2011**
+
+The most harmful weather event for property damage is **FLOOD** and for crop damage is **DROUGHT**.
+
+## Conclusion
+
+The most harmful weather event for public health are **Tornados**. 
+
+For economics, property damage was considered for evaluation, where **Flood** is what costs the most while for crop damage it is **drought**.
+
+
