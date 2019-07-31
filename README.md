@@ -28,4 +28,4 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 
 * [Weather events](Weather events/readme.md)
 
-* [GAN's](GAN/readme.md)
+* [GANs](GAN/readme.md)
