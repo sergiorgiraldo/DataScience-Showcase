@@ -2,7 +2,10 @@
 title: "Analysis of the effects of the weather events on public health and economics accros the United States"
 author: "Sergio Giraldo"
 date: "2019-05-02"
-output: html_document
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
 ---
 
 ```{r, results='hide', warning=FALSE, message=FALSE}

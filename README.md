@@ -27,3 +27,5 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 * [Reinforcement Learning/Frozen lake](Reinforcement Learning/Frozen Lake/readme.md)
 
 * [Weather events](Weather events/readme.md)
+
+* [GAN's](GAN/readme.md)
