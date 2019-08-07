@@ -29,3 +29,5 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 * [Weather events](Weather events/readme.md)
 
 * [GANs](GAN/readme.md)
+
+* [Airline passengers](Airline/readme.md)
