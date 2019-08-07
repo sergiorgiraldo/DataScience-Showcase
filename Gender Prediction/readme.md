@@ -1,4 +1,4 @@
-## Gender prediction
+# Gender prediction
 
 The goal of the study is to use logistic regression to predict genders.
   
