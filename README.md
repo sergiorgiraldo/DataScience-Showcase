@@ -31,3 +31,5 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 * [GANs](GAN/readme.md)
 
 * [Airline passengers](Airline/readme.md)
+
+* [Iris Classification](Iris Classification/readme.md)
