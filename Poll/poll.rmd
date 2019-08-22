@@ -289,6 +289,17 @@ Among who answered **Yes**, what is the limit distributuion?
     select(vl) %>%
     summary()
 
+poll %>%
+  filter(!is.na(account_limit)) %>%
+  mutate(account_limit = as.numeric(account_limit)) %>%
+  mutate(account_limit_categories = cut(account_limit, 
+                                            c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                            dig.lab = 6)) %>%
+  ggplot(aes(x = account_limit_categories)) +
+  geom_bar(aes(fill = account_limit_is_enough)) +
+  labs(x = "Account Limit Intervals") +
+  theme(axis.text.x = element_text(angle = 20))
+
 ```
 
 #Is your Credit Card limit enough?
@@ -312,5 +323,17 @@ Among who answered **Yes**, what is the limit distributuion?
     filter(vl < 100000) %>%
     select(vl) %>%
     summary()
+
+poll %>%
+  filter(!is.na(credit_card_limit)) %>%
+  mutate(credit_card_limit = as.numeric(credit_card_limit)) %>%
+  mutate(credit_card_limit_categories = cut(credit_card_limit, 
+                                            c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                            dig.lab = 6)) %>%
+  ggplot(aes(x = credit_card_limit_categories)) +
+  geom_bar(aes(fill = credit_card_limit_is_enough)) +
+  labs(x = "Credit Card Limit Intervals") +
+  theme(axis.text.x = element_text(angle = 20))
+
 
 ```
