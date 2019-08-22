@@ -33,3 +33,5 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 * [Airline passengers](Airline/readme.md)
 
 * [Iris Classification](Iris Classification/readme.md)
+
+* [Pol](Poll/readme.md)

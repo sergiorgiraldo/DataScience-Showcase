@@ -1,0 +1,316 @@
+---
+title: "Poll"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+library(readr)
+library(dplyr)
+library(DT)
+library(forcats)
+library(stringr)
+library(ggplot2)
+```
+
+```{r load,results='hide', warning=FALSE, message=FALSE}
+poll <- read_delim("poll.csv", ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+This is a poll about financial products.
+
+It had `r nrow(poll)` answers between `r min(poll$"Date Submitted")` and `r max(poll$"Date Submitted")`.
+
+```{r cleansing, echo=FALSE, results='hide', warning=FALSE, message=FALSE}
+poll$credit_card_limit <- gsub("(c|C)inco", "5", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(d|D)ois", "2", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("Trens", "3", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(s|S)ete", "7", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(o|O)ito", "8", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(q|Q)uinze", "15", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("000 (mil|MIL|Mil)", "000", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(\\d+)\\s{0,1}(mil|MIL|Mil)", "\\1000", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("mil", "1000", poll$credit_card_limit)
+poll$credit_card_limit <- gsub(",00$", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\.00$", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\.", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\,", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\$", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("#", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\s?reais", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("(\\d+)\\s?k", "\\1000", poll$credit_card_limit)
+poll$credit_card_limit <- gsub(",00", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("\\D", "", poll$credit_card_limit)
+poll$credit_card_limit <- gsub("^0+$", NA, poll$credit_card_limit)
+poll$credit_card_limit <- gsub("^$", NA, poll$credit_card_limit)
+
+poll$account_limit <- gsub("(c|C)inco", "5", poll$account_limit)
+poll$account_limit <- gsub("(d|D)ois", "2", poll$account_limit)
+poll$account_limit <- gsub("Trens", "3", poll$account_limit)
+poll$account_limit <- gsub("(s|S)ete", "7", poll$account_limit)
+poll$account_limit <- gsub("(o|O)ito", "8", poll$account_limit)
+poll$account_limit <- gsub("(q|Q)uinze", "15", poll$account_limit)
+poll$account_limit <- gsub("000 (mil|MIL|Mil)", "000", poll$account_limit)
+poll$account_limit <- gsub("(\\d+)\\s{0,1}(mil|MIL|Mil)", "\\1000", poll$account_limit)
+poll$account_limit <- gsub("mil", "1000", poll$account_limit)
+poll$account_limit <- gsub(",00$", "", poll$account_limit)
+poll$account_limit <- gsub("\\.00$", "", poll$account_limit)
+poll$account_limit <- gsub("\\.", "", poll$account_limit)
+poll$account_limit <- gsub("\\,", "", poll$account_limit)
+poll$account_limit <- gsub("\\$", "", poll$account_limit)
+poll$account_limit <- gsub("#", "", poll$account_limit)
+poll$account_limit <- gsub("\\s?reais", "", poll$account_limit)
+poll$account_limit <- gsub("(\\d+)\\s?k", "\\1000", poll$account_limit)
+poll$account_limit <- gsub(",00", "", poll$account_limit)
+poll$account_limit <- gsub("\\D", "", poll$account_limit)
+poll$account_limit <- gsub("^0+$", NA, poll$account_limit)
+poll$account_limit <- gsub("^$", NA, poll$account_limit)
+
+poll$proposed_credit_card_limit <- gsub("(c|C)inco", "5", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(d|D)ois", "2", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("Trens", "3", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(s|S)ete", "7", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(o|O)ito", "8", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(q|Q)uinze", "15", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("000 (mil|MIL|Mil)", "000", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(\\d+)\\s{0,1}(mil|MIL|Mil)", "\\1000", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("mil", "1000", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub(",00$", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\.00$", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\.", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\,", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\$", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("#", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\s?reais", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("(\\d+)\\s?k", "\\1000", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub(",00", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("\\D", "", poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("^0+$", NA, poll$proposed_credit_card_limit)
+poll$proposed_credit_card_limit <- gsub("^$", NA, poll$proposed_credit_card_limit)
+
+poll$proposed_account_limit <- gsub("(c|C)inco", "5", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(d|D)ois", "2", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("Trens", "3", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(s|S)ete", "7", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(o|O)ito", "8", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(q|Q)uinze", "15", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("000 (mil|MIL|Mil)", "000", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(\\d+)\\s{0,1}(mil|MIL|Mil)", "\\1000", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("mil", "1000", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub(",00$", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\.00$", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\.", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\,", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\$", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("#", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\s?reais", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("(\\d+)\\s?k", "\\1000", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub(",00", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("\\D", "", poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("^0+$", NA, poll$proposed_account_limit)
+poll$proposed_account_limit <- gsub("^$", NA, poll$proposed_account_limit)
+
+```
+
+##Device 
+
+```{r}
+
+ggplot(poll) +
+ aes(x = Device) +
+ geom_bar(position = "dodge", fill = "#006d2c") +
+  geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+##Browser
+
+```{r}
+
+poll %>% 
+  mutate(browser_ = str_extract(Browser, "^([\\w\\-]+)"),
+         browser_ = fct_collapse(browser_, 
+                      Chrome = c("Chrome", "Chromium", "Samsung"), 
+                      IE = c("Edge", "IE"))) %>%
+  group_by(browser_) %>%
+  mutate(N_aux = n()) %>%
+  ungroup() %>%
+  mutate(browser_ = fct_reorder(browser_, N_aux, .desc = TRUE)) %>%
+  ggplot() +
+   aes(x = browser_) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+    geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+
+```
+
+##OS
+```{r}
+
+poll %>% 
+  mutate(os_ = str_extract(OS, "^([\\w\\-]+)"),
+         os__ = fct_collapse(os_, 
+                      Unix = c("Chrome", "Linux", "Ubuntu"))) %>%
+  group_by(os_) %>%
+  mutate(N_aux = n()) %>%
+  ungroup() %>%
+  mutate(os_ = fct_reorder(os_, N_aux, .desc = TRUE)) %>%
+  ggplot() +
+   aes(x = os_) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+    geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+## Products used
+
+```{r}
+poll %>%
+  group_by(products) %>%
+  mutate(N_aux = n()) %>%
+  ungroup() %>%
+  mutate(products = fct_reorder(products, N_aux, .desc = TRUE)) %>%
+  ggplot() +
+   aes(x = products) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+
+#Credit Card Limit
+```{r}
+  poll %>%
+  filter(!is.na(credit_card_limit)) %>%
+  mutate(credit_card_limit = as.numeric(credit_card_limit)) %>%
+  group_by(credit_card_limit) %>%
+  summarise(count=n()) %>%
+  arrange()%>%
+  datatable()
+
+poll %>%
+  filter(!is.na(credit_card_limit)) %>%
+  mutate(credit_card_limit = as.numeric(credit_card_limit)) %>%
+  mutate(credit_card_limit_categories = cut(credit_card_limit, 
+                                         c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                         dig.lab = 6)) %>%
+  ggplot() +
+   aes(x = credit_card_limit_categories) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+
+
+```
+
+#Proposed Credit Card Limit
+```{r}
+  poll %>%
+  filter(!is.na(proposed_credit_card_limit)) %>%
+  mutate(proposed_credit_card_limit = as.numeric(proposed_credit_card_limit)) %>%
+  group_by(proposed_credit_card_limit) %>%
+  summarise(count=n()) %>%
+  arrange() %>%
+  datatable()
+
+  poll %>%
+  filter(!is.na(proposed_credit_card_limit)) %>%
+  mutate(proposed_credit_card_limit = as.numeric(proposed_credit_card_limit)) %>%
+  mutate(proposed_account_limit_categories = cut(proposed_credit_card_limit, 
+                                         c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                         dig.lab = 6)) %>%
+  ggplot() +
+   aes(x = proposed_account_limit_categories) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+
+```
+
+#Account Limit
+```{r}
+  poll %>%
+  filter(!is.na(account_limit)) %>%
+  mutate(account_limit = as.numeric(account_limit)) %>%
+  group_by(account_limit) %>%
+  summarise(count=n()) %>%
+  arrange() %>%
+  datatable()
+    
+  poll %>%
+  filter(!is.na(account_limit)) %>%
+  mutate(account_limit = as.numeric(account_limit)) %>%
+  mutate(account_limit_categories = cut(account_limit, 
+                                         c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                         dig.lab = 6)) %>%
+  ggplot() +
+   aes(x = account_limit_categories) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+
+```
+
+#Proposed Account Limit
+```{r}
+  poll %>%
+  filter(!is.na(proposed_account_limit)) %>%
+  mutate(proposed_account_limit = as.numeric(proposed_account_limit)) %>%
+  group_by(proposed_account_limit) %>%
+  summarise(count=n()) %>%
+  arrange() %>%
+  datatable()
+
+  poll %>%
+  filter(!is.na(proposed_account_limit)) %>%
+  mutate(proposed_account_limit = as.numeric(proposed_account_limit)) %>%
+  mutate(proposed_credit_card_limit_categories = cut(proposed_account_limit, 
+                                         c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
+                                         dig.lab = 6)) %>%
+  ggplot() +
+   aes(x = proposed_credit_card_limit_categories) +
+   geom_bar(position = "dodge", fill = "#006d2c") +
+   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+#Is your account limit enough?
+```{r}
+  poll %>%
+    filter(!is.na(account_limit_is_enough)) %>%
+    ggplot() +
+     aes(x = account_limit_is_enough) +
+     geom_bar(position = "dodge", fill = "#006d2c") +
+     geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+Among who answered **Yes**, what is the limit distributuion?
+*removed answers whose limit was greater than 100.000*
+
+```{r}
+  poll %>%
+    filter(!is.na(account_limit_is_enough)) %>%
+    filter(account_limit_is_enough == "Yes") %>%
+    mutate(vl = as.numeric(account_limit)) %>%
+    filter(vl < 100000) %>%
+    select(vl) %>%
+    summary()
+
+```
+
+#Is your Credit Card limit enough?
+```{r}
+  poll %>%
+    filter(!is.na(credit_card_limit_is_enough)) %>%
+    ggplot() +
+     aes(x = credit_card_limit_is_enough) +
+     geom_bar(position = "dodge", fill = "#006d2c") +
+     geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+```
+
+Among who answered **Yes**, what is the limit distributuion?
+*removed answers whose limit was greater than 100.000*
+
+```{r}
+  poll %>%
+    filter(!is.na(credit_card_limit_is_enough)) %>%
+    filter(credit_card_limit_is_enough == "Yes") %>%
+    mutate(vl = as.numeric(credit_card_limit)) %>%
+    filter(vl < 100000) %>%
+    select(vl) %>%
+    summary()
+
+```
