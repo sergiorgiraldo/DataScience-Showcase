@@ -34,4 +34,4 @@ Live at https://sergiorgiraldo.github.io/DataScience-Showcase/
 
 * [Iris Classification](Iris Classification/readme.md)
 
-* [Pol](Poll/readme.md)
+* [Poll](Poll/readme.md)
