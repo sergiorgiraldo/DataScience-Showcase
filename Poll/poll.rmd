@@ -12,6 +12,7 @@ library(DT)
 library(forcats)
 library(stringr)
 library(ggplot2)
+library(scales)
 ```
 
 ```{r load,results='hide', warning=FALSE, message=FALSE}
@@ -121,6 +122,14 @@ ggplot(poll) +
  aes(x = Device) +
  geom_bar(position = "dodge", fill = "#006d2c") +
   geom_text(stat='count', aes(label=..count..), size = 3, position = position_stack(vjust = 0.5))
+
+ggplot(poll, aes(x = as.factor(Device))) +
+  geom_bar(aes(y = (..count..)/sum(..count..)), fill = "#006d2c") +
+  geom_text(aes(y = ((..count..)/sum(..count..)), 
+              label = scales::percent((..count..)/sum(..count..))), 
+              stat = "count", vjust = -0.25) +
+  scale_y_continuous(labels = percent) +
+  labs(y = "Percent", x = "Device")
 ```
 
 ##Browser
@@ -316,24 +325,36 @@ Among who answered **Yes**, what is the limit distributuion?
 *removed answers whose limit was greater than 100.000*
 
 ```{r}
-  poll %>%
-    filter(!is.na(credit_card_limit_is_enough)) %>%
-    filter(credit_card_limit_is_enough == "Yes") %>%
-    mutate(vl = as.numeric(credit_card_limit)) %>%
-    filter(vl < 100000) %>%
-    select(vl) %>%
-    summary()
-
 poll %>%
+  filter(!is.na(credit_card_limit_is_enough)) %>%
+  filter(credit_card_limit_is_enough == "Yes") %>%
+  mutate(vl = as.numeric(credit_card_limit)) %>%
+  filter(vl < 100000) %>%
+  select(vl) %>%
+  summary()
+
+pollAux <-
+  poll %>%
   filter(!is.na(credit_card_limit)) %>%
+  filter(!is.na(credit_card_limit_is_enough)) %>%
   mutate(credit_card_limit = as.numeric(credit_card_limit)) %>%
   mutate(credit_card_limit_categories = cut(credit_card_limit, 
                                             c(-Inf, 1000, 3000, 5000, 10000, 20000, 30000, Inf),
-                                            dig.lab = 6)) %>%
+                                            dig.lab = 6)) 
+pollAux %>%
   ggplot(aes(x = credit_card_limit_categories)) +
   geom_bar(aes(fill = credit_card_limit_is_enough)) +
   labs(x = "Credit Card Limit Intervals") +
   theme(axis.text.x = element_text(angle = 20))
 
+ggplot(pollAux, aes(x = as.factor(credit_card_limit_categories))) +
+  geom_bar(aes(y = (..count..)/sum(..count..)), fill = "#006d2c") +
+  geom_text(aes(y = ((..count..)/sum(..count..)), 
+              label = scales::percent((..count..)/sum(..count..))), 
+              stat = "count", vjust = -0.25) +
+  scale_y_continuous(labels = percent) +
+  labs(y = "Percent", x = "Credit Card Limit") +
+  facet_grid(~credit_card_limit_is_enough)  +
+    theme(axis.text.x = element_text(angle = 20))
 
 ```
