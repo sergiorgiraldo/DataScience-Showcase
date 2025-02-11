@@ -1,0 +1,10 @@
+import pandas as pd
+data = pd.read_csv("./iris.csv")
+print("*****DATA******")
+print(data)
+print("*****HEAD******")
+print(data.head())
+print("*****SAMPLE******")
+print(data.sample(10))
+print("******COLUMNS*****")
+print(data.columns)
