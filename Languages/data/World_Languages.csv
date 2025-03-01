@@ -694,11 +694,11 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 -68.616548367274,-54.8475281024821,"37",Argentina,Sovereign country,Argentina,Spanish,,,"0","0","0","1","0","0","0",Spanish
 44.8365911697135,40.0788720648005,"38",Armenia,Sovereign country,Armenia,Armenian,,,"0","0","0","0","0","0","0",Other
 45.5132714338284,40.635092052248,"38",Armenia,Sovereign country,Armenia,Armenian,,,"0","0","0","0","0","0","0",Other
--170.753447996066,-14.3111303959335,"39",United States of America,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
--169.485930871209,-14.2470440700264,"39",United States of America,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
--169.659550056858,-14.1824690277361,"39",United States of America,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
--171.079618058983,-11.0564103990688,"39",United States of America,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
--168.164237529839,-14.5282939889296,"39",United States of America,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
+-170.753447996066,-14.3111303959335,"39",United States,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
+-169.485930871209,-14.2470440700264,"39",United States,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
+-169.659550056858,-14.1824690277361,"39",United States,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
+-171.079618058983,-11.0564103990688,"39",United States,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
+-168.164237529839,-14.5282939889296,"39",United States,Dependency,American Samoa,Samoan,English,,"1","0","0","0","0","0","0",English
 -61.7882162285827,17.0791679309046,"40",Antigua and Barbuda,Sovereign country,Antigua and Barbuda,English,,,"1","0","0","0","0","0","0",English
 -61.7817640574882,17.6381697098168,"40",Antigua and Barbuda,Sovereign country,Antigua and Barbuda,English,,,"1","0","0","0","0","0","0",English
 133.081126372154,-24.9229065589752,"41",Australia,Country,Australia,English,,,"1","0","0","0","0","0","0",English
@@ -1275,26 +1275,26 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 -6.72975680956234,62.3159236367883,"78",Denmark,Dependency,Faroe Islands,Faroese,Danish,,"0","0","0","0","0","0","0",Other
 -6.34263554369238,62.2758854364027,"78",Denmark,Dependency,Faroe Islands,Faroese,Danish,,"0","0","0","0","0","0","0",Other
 -7.59745845457164,62.1043971277957,"78",Denmark,Dependency,Faroe Islands,Faroese,Danish,,"0","0","0","0","0","0","0",Other
-158.24746308943,6.88503632084218,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-162.988228988392,5.32725693647905,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-138.108123360309,9.50067760806211,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-151.635232366924,7.36243369642843,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-151.878244720145,7.44194128051569,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-153.688945211052,5.30152004306715,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-149.676125649222,8.59926979375615,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-151.859742528479,7.34471260461301,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-154.781505280156,3.77901845879403,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-154.885514169984,3.76540761742579,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-154.786156619807,0.970465670492482,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-140.523519521286,9.76986318402034,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-154.807873830695,0.923326028441913,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-149.320841611166,6.70850248775661,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-154.722247945775,0.963466643346054,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-157.942681302846,6.72418793428925,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-150.127197664636,8.98322180853197,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-149.18497791139,7.37795610118792,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-150.407595103413,8.5808165886178,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
-157.161707998945,5.77673917023573,"79",Federated States of Micronesia,Sovereign country,Federated States of Micronesia,English,,,"1","0","0","0","0","0","0",English
+158.24746308943,6.88503632084218,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+162.988228988392,5.32725693647905,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+138.108123360309,9.50067760806211,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+151.635232366924,7.36243369642843,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+151.878244720145,7.44194128051569,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+153.688945211052,5.30152004306715,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+149.676125649222,8.59926979375615,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+151.859742528479,7.34471260461301,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+154.781505280156,3.77901845879403,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+154.885514169984,3.76540761742579,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+154.786156619807,0.970465670492482,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+140.523519521286,9.76986318402034,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+154.807873830695,0.923326028441913,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+149.320841611166,6.70850248775661,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+154.722247945775,0.963466643346054,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+157.942681302846,6.72418793428925,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+150.127197664636,8.98322180853197,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+149.18497791139,7.37795610118792,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+150.407595103413,8.5808165886178,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
+157.161707998945,5.77673917023573,"79",Micronesia,Sovereign country,Micronesia,English,,,"1","0","0","0","0","0","0",English
 11.73380011081,-0.815199452813535,"80",Gabon,Sovereign country,Gabon,French,,,"0","1","0","0","0","0","0",French
 9.00020039171564,-0.680027590150041,"80",Gabon,Sovereign country,Gabon,French,,,"0","1","0","0","0","0","0",French
 9.38012374944068,0.80829922691117,"80",Gabon,Sovereign country,Gabon,French,,,"0","1","0","0","0","0","0",French
@@ -1595,7 +1595,7 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 -87.7665449175367,13.2352841827488,"97",Honduras,Sovereign country,Honduras,Spanish,,,"0","0","0","1","0","0","0",Spanish
 -83.9273231038577,17.4132959731746,"97",Honduras,Sovereign country,Honduras,Spanish,,,"0","0","0","1","0","0","0",Spanish
 -90.2868304526394,15.773892200292,"94",Guatemala,Sovereign country,Guatemala,Spanish,,,"0","0","0","1","0","0","0",Spanish
-144.760551498073,13.4596215032527,"95",United States of America,Dependency,Guam,English,Chamorro,,"1","0","0","0","0","0","0",English
+144.760551498073,13.4596215032527,"95",United States,Dependency,Guam,English,Chamorro,,"1","0","0","0","0","0","0",English
 114.055997505738,22.4112007275395,"96",China,Country,Hong Kong S.A.R.,Cantonese,English,,"1","0","0","0","0","0","0",English
 113.945363067621,22.2715120949146,"96",China,Country,Hong Kong S.A.R.,Cantonese,English,,"1","0","0","0","0","0","0",English
 114.214783937751,22.2407074188114,"96",China,Country,Hong Kong S.A.R.,Cantonese,English,,"1","0","0","0","0","0","0",English
@@ -2681,18 +2681,18 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 -12.2651793436411,-37.1013329290712,"191",United Kingdom,Dependency,Saint Helena,English,,,"1","0","0","0","0","0","0",English
 -9.96283048294974,-40.3564991964137,"191",United Kingdom,Dependency,Saint Helena,English,,,"1","0","0","0","0","0","0",English
 -14.3593688325735,-7.93336291625709,"191",United Kingdom,Dependency,Saint Helena,English,,,"1","0","0","0","0","0","0",English
-145.73647432827,15.1860415031289,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.61776638339,15.0022236778426,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.213341197232,14.1584324838417,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.78607596489,18.1165275954549,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.67215222858,18.7576358006507,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.672655974024,16.3586485338487,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.847640038406,17.5899723006222,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.249521321089,20.0300974322931,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.400323121724,19.667608576476,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-144.916686500748,20.532049522143,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.788462242925,16.6842708949755,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
-145.854366366424,17.2937679844153,"118",United States of America,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.73647432827,15.1860415031289,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.61776638339,15.0022236778426,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.213341197232,14.1584324838417,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.78607596489,18.1165275954549,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.67215222858,18.7576358006507,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.672655974024,16.3586485338487,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.847640038406,17.5899723006222,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.249521321089,20.0300974322931,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.400323121724,19.667608576476,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+144.916686500748,20.532049522143,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.788462242925,16.6842708949755,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
+145.854366366424,17.2937679844153,"118",United States,Dependency,Northern Mariana Islands,Chamorro,English,,"1","0","0","0","0","0","0",English
 34.6710617020766,-18.6374663431233,"119",Mozambique,Sovereign country,Mozambique,Portuguese,,,"0","0","0","0","1","0","0",Portuguese
 39.8740467290875,-16.3357287192367,"119",Mozambique,Sovereign country,Mozambique,Portuguese,,,"0","0","0","0","1","0","0",Portuguese
 35.4641614032056,-21.6574032506923,"119",Mozambique,Sovereign country,Mozambique,Portuguese,,,"0","0","0","0","1","0","0",Portuguese
@@ -3222,10 +3222,10 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 151.858967251511,-10.2570939558746,"150",Papua New Guinea,Sovereign country,Papua New Guinea,Tok Pisin,English,Hiri Motu,"1","0","0","0","0","0","0",English
 151.870616611862,-10.3413226958245,"150",Papua New Guinea,Sovereign country,Papua New Guinea,Tok Pisin,English,Hiri Motu,"1","0","0","0","0","0","0",English
 19.1562721021753,51.9199200170065,"151",Poland,Sovereign country,Poland,Polish,,,"0","0","0","0","0","0","0",Other
--66.4014896515378,18.2211615256456,"152",United States of America,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
--65.4275122376653,18.1273470445576,"152",United States of America,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
--67.8931569357196,18.0855772002782,"152",United States of America,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
--65.2623181167201,18.3102478993551,"152",United States of America,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
+-66.4014896515378,18.2211615256456,"152",United States,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
+-65.4275122376653,18.1273470445576,"152",United States,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
+-67.8931569357196,18.0855772002782,"152",United States,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
+-65.2623181167201,18.3102478993551,"152",United States,Dependency,Puerto Rico,Spanish,English,,"1","0","0","1","0","0","0",English_Spanish
 -62.7494721778679,17.3174087127124,"153",Saint Kitts and Nevis,Sovereign country,Saint Kitts and Nevis,English,,,"1","0","0","0","0","0","0",English
 -62.5811927133487,17.1467960663029,"153",Saint Kitts and Nevis,Sovereign country,Saint Kitts and Nevis,English,,,"1","0","0","0","0","0","0",English
 128.011051107413,36.460452205538,"154",South Korea,Sovereign country,South Korea,Korean,,,"0","0","0","0","0","0","0",Other
@@ -3338,352 +3338,352 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 -56.3249642861411,46.9625710013357,"198",France,Dependency,Saint Pierre and Miquelon,French,,,"0","1","0","0","0","0","0",French
 -56.1937552508008,46.7816221597497,"198",France,Dependency,Saint Pierre and Miquelon,French,,,"0","1","0","0","0","0","0",French
 20.9972406567965,44.2056745312577,"199",Republic of Serbia,Sovereign country,Republic of Serbia,Serbian,,,"0","0","0","0","0","0","0",Other
--99.6984271779473,37.2463637741882,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.006291708842,63.0864931996523,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.181564509274,57.3755970827701,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.822724379242,55.5253978274775,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--155.453293297789,19.5936859826848,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.025505701012,63.371872309442,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--135.890468826451,57.8207055479783,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.504489673596,60.0999813226786,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--134.386962937571,57.710007502024,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--135.02824764312,56.8618432552849,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--164.045965658602,54.730047453411,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--131.139687130208,55.5761781454455,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.502317981272,56.7645126600224,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--73.0704212031565,40.8497373999488,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.768781003642,53.6302563982188,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.69320547444,58.2390606971582,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.963946390321,56.4715447303805,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--168.536446107862,53.194342442569,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--156.305314201066,20.8037649242617,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--158.035922110049,21.4804479653618,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--174.260848196421,52.2097638408369,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.417615047587,56.1286071442439,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.383567793187,60.0907453968757,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.555705621939,22.0534588824538,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-173.049313860636,52.8824119028235,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--176.571334042536,51.7901068359403,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.042289609732,54.9592964158315,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.162647510043,56.3039008906196,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.755203976629,56.6579247444489,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--177.874104532211,51.7614803801151,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.860234801533,56.3488224603707,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--135.656022978741,57.16016253541,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--146.34625954692,60.3663796013467,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--173.447790423052,52.0856174274869,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.705164201019,55.2643089952151,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.502749410587,56.0296485709971,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--157.009000109277,21.136094913357,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--172.791349986524,60.4451561560168,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.586965212973,48.1521664111578,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.929879454991,58.6852244950669,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--177.19284176403,51.80119501484,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.950864351408,54.1270215606112,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--131.438896808683,55.1389428266795,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.2066646691,57.1040712569031,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.716280340053,60.336229398978,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.046895499186,55.0868587377856,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-179.049227190476,51.5049698003686,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-177.471044451962,51.9766309195392,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--131.759981806943,55.2813778824758,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.3002311913747,44.3426580737014,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--156.900532508758,20.8334065616458,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--134.515101217129,58.2695580888985,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-173.570073120247,52.4353100596437,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--136.465260086255,57.9708317271353,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-179.63709286578,51.9527849875202,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--145.997584386333,60.5416323868619,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.154133507442,58.0625673688833,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--91.8639003721058,29.5638688004754,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.478423515416,58.558865467593,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--154.640185539442,56.5047661812484,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--172.447626190969,52.3261581170057,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--119.775437924415,34.0179258124911,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.518879446747,63.5953833966076,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.583750548763,55.7634542088778,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.6229644501593,41.399176761705,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.687765518083,52.633368342562,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--97.2676935424177,27.5241694486582,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.368244773041,57.8953725945079,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.757379256298,55.0924533667205,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--97.329852510155,26.675685611856,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--169.851619511447,52.8340927279857,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--154.218309466202,56.5611031789721,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--131.354405937905,54.9308951591102,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.331259692815,54.9108337315223,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--120.09277732909,33.965929232742,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.034133636339,60.8598295216796,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.357920371801,55.2681136414468,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.6908436190957,28.4129091246329,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--176.092762622164,52.0369329331547,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.689250063257,54.4322981335062,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.539757006815,54.2042918617088,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--96.6335496909352,28.2367015141258,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--118.421250285805,33.3875139987355,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--123.077152861379,48.5353873750913,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.603930807776,55.3314278684283,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--155.64312719647,55.8364135242832,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.810673756115,48.6523900500738,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.285639285908,57.179795354469,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.142177579374,21.9021842317892,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.0085732827841,41.3241647735874,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--132.711786051081,54.8485167835503,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.168863750242,60.1106024618398,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--161.714098009094,55.1156469181966,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--74.1393834977592,40.5774066253069,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--176.34089521796,51.7992410001883,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--118.513520995717,32.9201753720024,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.4779759082091,35.48450338243,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--94.9177634277113,29.2238608692431,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.3907514315612,25.1518015740818,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.415693624335,55.3080708103343,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--86.9484190917028,30.3687706601492,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.532260704485,55.1462267784771,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--157.153228354669,56.5576854110961,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.212971951509,53.7790180387925,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.653221920443,55.5017773064043,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--169.59646536371,56.5820774413875,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.3170127690129,27.5341454315737,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--144.443676699282,59.9159400043581,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.450120392647,59.3719961086207,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.910986808906,60.0189477087643,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--96.9444164387837,27.9886339211483,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.471415361813,47.4172840508906,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--71.2708579967624,41.5604719104572,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.078030520564,54.1031567393391,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--134.249434096307,55.8656070481124,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.001746531296,60.082098683184,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.333560748943,55.5017149404883,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.48664565085,55.4748196419267,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--156.611555300377,20.5495956311222,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.164782144893,60.7079126366894,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.899685843275,48.4912785676023,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-178.532275361665,51.9482286485552,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--151.968656118456,60.4320129922247,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--145.172340277907,60.3624938678045,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.062459358442,60.3400532953357,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.976078936064,56.532782584688,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.206421875177,55.4198872767619,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--150.681021580458,59.36194578388,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.279652656136,55.8415593157159,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--176.119531209856,51.834236169772,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.394715524766,55.009609151023,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.536200477888,47.6449651113137,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.2099080345931,38.0798356816904,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.6668262203734,44.21063780389,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.2431593177787,31.4577312452579,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.4585690394866,30.8444682090361,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--178.800391515888,51.7921816051008,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.925366847175,60.709053190982,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.4594284384993,34.7127139002251,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--135.637684458007,58.358311394953,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--158.749182268843,55.8495758589235,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.453061435964,57.9285555719904,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.123943397172,52.7544004891216,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.224390569402,60.8822501883161,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.882668683847,55.8972840347207,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--151.840340994464,58.228399610599,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.8901107273315,37.2028813036563,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--148.074081557678,59.9943514742052,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.542057823511,66.1276299589525,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.1243177808252,26.6030949937892,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.417576020518,60.6731639470264,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--161.619992173465,55.2233340131844,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--119.510286706553,33.2499838565978,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.271180886737,58.9410658211243,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--171.259751646272,52.4935775600221,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--141.499067889891,69.7410962215923,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--169.71540959731,52.9937398541836,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.2615646318402,30.0977446274879,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--72.9667738259487,40.7016788282438,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.065525672141,52.8854428188189,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--146.762323507035,60.8405897817413,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.8189217972204,44.0722920140822,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.6632090637603,35.8930728380807,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.263927449349,54.9131941977769,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--73.9602698546594,40.7879499418459,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.89150443463,47.2343614224181,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.799753890927,57.9586247552236,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--147.423416834482,60.264899977622,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--176.023852919182,51.8796244031027,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--66.9265217695666,44.8945987811388,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.1783552781888,26.4839950052301,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.022357798156,66.4922539586661,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--74.179320871803,39.6407245599849,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.8768349870092,44.1432965780399,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.28757134576,54.0675109374825,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--161.385526677287,55.1944032664158,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--153.858605412522,57.4900983232531,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--149.116493979511,70.5191918090492,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--167.025792247685,65.9791110752639,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.9437618286863,34.6865501915621,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--73.4789284148752,40.6035434546745,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.556076382272,54.7895781612596,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--163.034377581837,69.8184267523703,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.85637494699,58.3137880540675,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--136.083761730274,58.2901679068684,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--178.944964168954,51.3497981280756,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--66.9858961890504,44.971421452601,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.0167423460496,37.9766190753826,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.1540596971907,31.6322693518375,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--74.3513980740593,39.4313418737542,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--77.5432512481219,34.4395612576718,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--179.098201408712,51.2551538077857,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--85.1309081010891,29.6656347811162,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-178.315628603822,51.8033510578013,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--72.3262688953658,41.063538910872,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.4480729263372,44.1556657316251,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--120.377487384973,34.0432745454649,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--150.385047531324,59.4324600293407,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.409867439054,70.1966820279331,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.150924071817,30.2541161155,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.591082056403,60.1418112335452,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.6268701772547,44.0495468002982,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.690177546211,48.0519886630694,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.0377184314208,29.4776271233669,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--167.689652222216,65.7756213810717,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.5541261434792,24.6383731199151,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.13888878525,53.9744130985219,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--84.8456904562591,29.6767226258046,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--71.5807780001846,41.1857065924169,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.702405336123,70.0108910667784,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--71.3746367490302,41.5217955163654,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.8172382522758,29.9141095376656,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.8887470489664,35.1467145574441,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.930875836762,66.2904116970812,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--131.218300047945,55.0839091662414,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.709409684833,47.1487283547572,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--162.438460168157,54.3947417412067,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.6643038716698,30.2359896256097,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--157.851470507162,56.3374696216703,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.670770896102,48.6942211642622,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.7631762642435,41.480138862431,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.294400838943,58.6814617606973,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.27544402894,55.4276577347519,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--122.708475670974,48.5750187822835,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--123.970464343507,46.4510379949309,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-175.936772042409,52.3613761675662,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.8893125250067,44.3529313749954,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--69.6988675685242,43.917385822523,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--96.3004205701505,28.4523779508682,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.4696305992144,41.398139539608,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--71.3185785111226,41.6185566201244,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--150.211948160587,61.1537132912627,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--77.9840802587291,33.8827180475417,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.3840035951967,24.7068348291767,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--163.179606236292,69.591172663089,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.4776751472135,29.7691298285893,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--173.086964180045,60.6560936671999,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--161.648045234031,70.3327913428097,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.404712569897,58.7160095776378,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--159.323144848028,55.785080300741,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.4117893102574,25.8225374081557,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--123.388163348399,46.1771411472102,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.5093880622248,44.3464218744584,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--67.5864639423276,44.4811873864978,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--175.85294342052,51.9824697368546,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--151.840736028435,59.1551183544994,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--156.713006081297,56.0379702573632,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--68.9149396785687,44.2735047982027,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--160.072564043442,55.3259547215906,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.5741343992928,34.6638653766842,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.0540105383396,38.1721792481203,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--156.79466063757,56.1898870975014,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.6421191374008,37.5231214476297,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--163.161212693398,55.4181580665457,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--71.9877403416891,41.270317788245,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
-174.120128916015,52.7237212416334,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.98882014923,62.0409207946278,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.416109444123,63.3132591695659,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--69.6679205768593,43.8236350104467,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--175.711212412333,51.9559990891739,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.620097289803,27.3597686138796,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.6824669341437,24.5785787637355,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--151.68057983539,59.1107918666521,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--151.463468858114,59.1226846463496,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--76.0920201929527,35.0374825164376,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--69.9968287360074,41.5830341042015,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--133.530949100752,54.8007057435996,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.4724588603526,25.8481499638457,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--67.0242426543594,44.9262759374049,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--168.059167067331,64.9734564515572,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.582561447141,66.3881279857843,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.0877123392657,30.2264666023738,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--72.0955254155743,41.0870240295752,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.6841867368738,25.8795019602009,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--166.113905362254,66.2413190716727,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--167.806313553078,65.7566592502144,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.097600395484,24.7123885266503,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--75.6833110676318,37.4258249193113,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--84.6039398452882,29.8026596321218,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.2686231738567,26.7693140938223,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.5005192633007,24.6786564810551,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.2983030449196,29.7882954189317,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.8090348583287,24.8241035115939,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--77.8504522071328,34.1332053997602,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.8789031319803,41.4320191613784,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--168.925191488116,65.7573513914739,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.7103742019848,29.0550804408858,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.16609060306,25.7038426806123,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.051899215938,58.9311179079975,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.0003180792931,29.2417666661341,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--146.328696717986,59.4364682611977,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.4631482824732,29.065396355878,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.2050459885887,25.4479023466843,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.0029738578826,24.735012070033,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.0592562043278,25.2927102422331,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--123.457343435087,46.2304511481659,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--118.26115613079,33.7429292539727,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.7663323850668,24.5589469431224,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--67.2970270004553,44.607489599721,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--152.279459653581,57.3796643699197,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--79.3563606112984,33.0339625708493,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--169.832550515419,63.0766665719487,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--164.588411529549,63.0512963175393,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.2602351378636,29.933946480517,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.2455077203759,26.6625837105211,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--123.077851178804,48.9782977360015,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.484118195841,30.220018305545,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.5407960478514,25.8756979638982,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--170.873452471612,63.4193179348056,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.1000612376427,25.3290674263295,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.2936298561507,29.9540474898632,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.3238820124011,29.0683046824181,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.1718314326781,29.4858464140381,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.6835582991816,28.774765799861,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.6812933210215,28.7272606946368,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.4512707326361,24.6676697952135,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--83.0467095974969,29.1432363755911,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.716693641689,24.8655053647233,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.3241060378681,24.6870580124448,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.1127009672786,24.5801859706077,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.6408542376018,24.9144343956595,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--70.814738955091,41.2537250417456,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.4474200460125,29.2449194633464,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.9096623900093,29.7042090559061,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--90.9077236678078,29.0542269481479,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--171.732952459703,25.7626609138555,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.0719184515025,29.5444799913932,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.9289622761216,29.2809111224624,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--80.6378239996998,28.1987976670347,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.2670572538566,24.6640071392182,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--169.510042261198,63.3735619161435,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--89.4321340200476,30.1395531278532,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.9546309595971,30.2140564581938,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--171.116961887833,63.6068227036412,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.361864775884,66.4328057616624,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--81.4174212293682,24.6533667706927,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--178.291699313586,28.3939842131988,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.463089917284,66.4145378250972,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--173.963562968739,26.0646226554005,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--167.997933403237,25.0097111290349,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--164.704757377972,23.5755686254273,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--82.1200735729096,24.5550814335052,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--161.943450692363,23.0432803253588,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--88.9741954543947,29.6357282587045,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--171.081970559901,63.6031965206565,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
--165.333804821051,66.4384850300356,"227",United States of America,Country,United States of America,English,,,"1","0","0","0","0","0","0",English
+-99.6984271779473,37.2463637741882,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.006291708842,63.0864931996523,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.181564509274,57.3755970827701,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.822724379242,55.5253978274775,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-155.453293297789,19.5936859826848,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.025505701012,63.371872309442,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-135.890468826451,57.8207055479783,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.504489673596,60.0999813226786,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-134.386962937571,57.710007502024,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-135.02824764312,56.8618432552849,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-164.045965658602,54.730047453411,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-131.139687130208,55.5761781454455,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.502317981272,56.7645126600224,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-73.0704212031565,40.8497373999488,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.768781003642,53.6302563982188,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.69320547444,58.2390606971582,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.963946390321,56.4715447303805,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-168.536446107862,53.194342442569,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-156.305314201066,20.8037649242617,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-158.035922110049,21.4804479653618,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-174.260848196421,52.2097638408369,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.417615047587,56.1286071442439,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.383567793187,60.0907453968757,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.555705621939,22.0534588824538,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+173.049313860636,52.8824119028235,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-176.571334042536,51.7901068359403,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.042289609732,54.9592964158315,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.162647510043,56.3039008906196,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.755203976629,56.6579247444489,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-177.874104532211,51.7614803801151,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.860234801533,56.3488224603707,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-135.656022978741,57.16016253541,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-146.34625954692,60.3663796013467,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-173.447790423052,52.0856174274869,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.705164201019,55.2643089952151,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.502749410587,56.0296485709971,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-157.009000109277,21.136094913357,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-172.791349986524,60.4451561560168,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.586965212973,48.1521664111578,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.929879454991,58.6852244950669,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-177.19284176403,51.80119501484,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.950864351408,54.1270215606112,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-131.438896808683,55.1389428266795,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.2066646691,57.1040712569031,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.716280340053,60.336229398978,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.046895499186,55.0868587377856,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+179.049227190476,51.5049698003686,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+177.471044451962,51.9766309195392,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-131.759981806943,55.2813778824758,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.3002311913747,44.3426580737014,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-156.900532508758,20.8334065616458,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-134.515101217129,58.2695580888985,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+173.570073120247,52.4353100596437,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-136.465260086255,57.9708317271353,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+179.63709286578,51.9527849875202,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-145.997584386333,60.5416323868619,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.154133507442,58.0625673688833,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-91.8639003721058,29.5638688004754,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.478423515416,58.558865467593,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-154.640185539442,56.5047661812484,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-172.447626190969,52.3261581170057,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-119.775437924415,34.0179258124911,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.518879446747,63.5953833966076,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.583750548763,55.7634542088778,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.6229644501593,41.399176761705,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.687765518083,52.633368342562,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-97.2676935424177,27.5241694486582,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.368244773041,57.8953725945079,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.757379256298,55.0924533667205,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-97.329852510155,26.675685611856,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-169.851619511447,52.8340927279857,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-154.218309466202,56.5611031789721,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-131.354405937905,54.9308951591102,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.331259692815,54.9108337315223,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-120.09277732909,33.965929232742,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.034133636339,60.8598295216796,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.357920371801,55.2681136414468,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.6908436190957,28.4129091246329,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-176.092762622164,52.0369329331547,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.689250063257,54.4322981335062,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.539757006815,54.2042918617088,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-96.6335496909352,28.2367015141258,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-118.421250285805,33.3875139987355,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-123.077152861379,48.5353873750913,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.603930807776,55.3314278684283,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-155.64312719647,55.8364135242832,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.810673756115,48.6523900500738,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.285639285908,57.179795354469,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.142177579374,21.9021842317892,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.0085732827841,41.3241647735874,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-132.711786051081,54.8485167835503,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.168863750242,60.1106024618398,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-161.714098009094,55.1156469181966,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-74.1393834977592,40.5774066253069,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-176.34089521796,51.7992410001883,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-118.513520995717,32.9201753720024,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.4779759082091,35.48450338243,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-94.9177634277113,29.2238608692431,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.3907514315612,25.1518015740818,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.415693624335,55.3080708103343,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-86.9484190917028,30.3687706601492,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.532260704485,55.1462267784771,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-157.153228354669,56.5576854110961,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.212971951509,53.7790180387925,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.653221920443,55.5017773064043,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-169.59646536371,56.5820774413875,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.3170127690129,27.5341454315737,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-144.443676699282,59.9159400043581,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.450120392647,59.3719961086207,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.910986808906,60.0189477087643,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-96.9444164387837,27.9886339211483,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.471415361813,47.4172840508906,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-71.2708579967624,41.5604719104572,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.078030520564,54.1031567393391,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-134.249434096307,55.8656070481124,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.001746531296,60.082098683184,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.333560748943,55.5017149404883,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.48664565085,55.4748196419267,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-156.611555300377,20.5495956311222,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.164782144893,60.7079126366894,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.899685843275,48.4912785676023,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+178.532275361665,51.9482286485552,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-151.968656118456,60.4320129922247,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-145.172340277907,60.3624938678045,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.062459358442,60.3400532953357,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.976078936064,56.532782584688,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.206421875177,55.4198872767619,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-150.681021580458,59.36194578388,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.279652656136,55.8415593157159,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-176.119531209856,51.834236169772,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.394715524766,55.009609151023,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.536200477888,47.6449651113137,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.2099080345931,38.0798356816904,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.6668262203734,44.21063780389,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.2431593177787,31.4577312452579,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.4585690394866,30.8444682090361,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-178.800391515888,51.7921816051008,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.925366847175,60.709053190982,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.4594284384993,34.7127139002251,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-135.637684458007,58.358311394953,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-158.749182268843,55.8495758589235,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.453061435964,57.9285555719904,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.123943397172,52.7544004891216,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.224390569402,60.8822501883161,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.882668683847,55.8972840347207,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-151.840340994464,58.228399610599,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.8901107273315,37.2028813036563,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-148.074081557678,59.9943514742052,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.542057823511,66.1276299589525,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.1243177808252,26.6030949937892,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.417576020518,60.6731639470264,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-161.619992173465,55.2233340131844,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-119.510286706553,33.2499838565978,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.271180886737,58.9410658211243,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-171.259751646272,52.4935775600221,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-141.499067889891,69.7410962215923,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-169.71540959731,52.9937398541836,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.2615646318402,30.0977446274879,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-72.9667738259487,40.7016788282438,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.065525672141,52.8854428188189,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-146.762323507035,60.8405897817413,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.8189217972204,44.0722920140822,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.6632090637603,35.8930728380807,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.263927449349,54.9131941977769,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-73.9602698546594,40.7879499418459,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.89150443463,47.2343614224181,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.799753890927,57.9586247552236,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-147.423416834482,60.264899977622,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-176.023852919182,51.8796244031027,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-66.9265217695666,44.8945987811388,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.1783552781888,26.4839950052301,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.022357798156,66.4922539586661,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-74.179320871803,39.6407245599849,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.8768349870092,44.1432965780399,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.28757134576,54.0675109374825,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-161.385526677287,55.1944032664158,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-153.858605412522,57.4900983232531,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-149.116493979511,70.5191918090492,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-167.025792247685,65.9791110752639,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.9437618286863,34.6865501915621,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-73.4789284148752,40.6035434546745,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.556076382272,54.7895781612596,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-163.034377581837,69.8184267523703,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.85637494699,58.3137880540675,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-136.083761730274,58.2901679068684,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-178.944964168954,51.3497981280756,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-66.9858961890504,44.971421452601,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.0167423460496,37.9766190753826,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.1540596971907,31.6322693518375,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-74.3513980740593,39.4313418737542,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-77.5432512481219,34.4395612576718,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-179.098201408712,51.2551538077857,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-85.1309081010891,29.6656347811162,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+178.315628603822,51.8033510578013,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-72.3262688953658,41.063538910872,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.4480729263372,44.1556657316251,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-120.377487384973,34.0432745454649,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-150.385047531324,59.4324600293407,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.409867439054,70.1966820279331,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.150924071817,30.2541161155,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.591082056403,60.1418112335452,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.6268701772547,44.0495468002982,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.690177546211,48.0519886630694,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.0377184314208,29.4776271233669,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-167.689652222216,65.7756213810717,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.5541261434792,24.6383731199151,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.13888878525,53.9744130985219,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-84.8456904562591,29.6767226258046,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-71.5807780001846,41.1857065924169,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.702405336123,70.0108910667784,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-71.3746367490302,41.5217955163654,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.8172382522758,29.9141095376656,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.8887470489664,35.1467145574441,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.930875836762,66.2904116970812,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-131.218300047945,55.0839091662414,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.709409684833,47.1487283547572,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-162.438460168157,54.3947417412067,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.6643038716698,30.2359896256097,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-157.851470507162,56.3374696216703,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.670770896102,48.6942211642622,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.7631762642435,41.480138862431,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.294400838943,58.6814617606973,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.27544402894,55.4276577347519,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-122.708475670974,48.5750187822835,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-123.970464343507,46.4510379949309,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+175.936772042409,52.3613761675662,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.8893125250067,44.3529313749954,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-69.6988675685242,43.917385822523,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-96.3004205701505,28.4523779508682,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.4696305992144,41.398139539608,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-71.3185785111226,41.6185566201244,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-150.211948160587,61.1537132912627,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-77.9840802587291,33.8827180475417,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.3840035951967,24.7068348291767,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-163.179606236292,69.591172663089,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.4776751472135,29.7691298285893,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-173.086964180045,60.6560936671999,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-161.648045234031,70.3327913428097,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.404712569897,58.7160095776378,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-159.323144848028,55.785080300741,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.4117893102574,25.8225374081557,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-123.388163348399,46.1771411472102,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.5093880622248,44.3464218744584,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-67.5864639423276,44.4811873864978,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-175.85294342052,51.9824697368546,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-151.840736028435,59.1551183544994,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-156.713006081297,56.0379702573632,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-68.9149396785687,44.2735047982027,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-160.072564043442,55.3259547215906,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.5741343992928,34.6638653766842,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.0540105383396,38.1721792481203,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-156.79466063757,56.1898870975014,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.6421191374008,37.5231214476297,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-163.161212693398,55.4181580665457,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-71.9877403416891,41.270317788245,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+174.120128916015,52.7237212416334,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.98882014923,62.0409207946278,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.416109444123,63.3132591695659,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-69.6679205768593,43.8236350104467,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-175.711212412333,51.9559990891739,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.620097289803,27.3597686138796,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.6824669341437,24.5785787637355,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-151.68057983539,59.1107918666521,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-151.463468858114,59.1226846463496,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-76.0920201929527,35.0374825164376,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-69.9968287360074,41.5830341042015,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-133.530949100752,54.8007057435996,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.4724588603526,25.8481499638457,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-67.0242426543594,44.9262759374049,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-168.059167067331,64.9734564515572,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.582561447141,66.3881279857843,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.0877123392657,30.2264666023738,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-72.0955254155743,41.0870240295752,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.6841867368738,25.8795019602009,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-166.113905362254,66.2413190716727,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-167.806313553078,65.7566592502144,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.097600395484,24.7123885266503,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-75.6833110676318,37.4258249193113,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-84.6039398452882,29.8026596321218,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.2686231738567,26.7693140938223,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.5005192633007,24.6786564810551,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.2983030449196,29.7882954189317,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.8090348583287,24.8241035115939,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-77.8504522071328,34.1332053997602,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.8789031319803,41.4320191613784,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-168.925191488116,65.7573513914739,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.7103742019848,29.0550804408858,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.16609060306,25.7038426806123,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.051899215938,58.9311179079975,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.0003180792931,29.2417666661341,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-146.328696717986,59.4364682611977,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.4631482824732,29.065396355878,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.2050459885887,25.4479023466843,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.0029738578826,24.735012070033,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.0592562043278,25.2927102422331,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-123.457343435087,46.2304511481659,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-118.26115613079,33.7429292539727,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.7663323850668,24.5589469431224,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-67.2970270004553,44.607489599721,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-152.279459653581,57.3796643699197,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-79.3563606112984,33.0339625708493,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-169.832550515419,63.0766665719487,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-164.588411529549,63.0512963175393,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.2602351378636,29.933946480517,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.2455077203759,26.6625837105211,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-123.077851178804,48.9782977360015,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.484118195841,30.220018305545,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.5407960478514,25.8756979638982,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-170.873452471612,63.4193179348056,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.1000612376427,25.3290674263295,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.2936298561507,29.9540474898632,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.3238820124011,29.0683046824181,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.1718314326781,29.4858464140381,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.6835582991816,28.774765799861,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.6812933210215,28.7272606946368,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.4512707326361,24.6676697952135,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-83.0467095974969,29.1432363755911,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.716693641689,24.8655053647233,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.3241060378681,24.6870580124448,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.1127009672786,24.5801859706077,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.6408542376018,24.9144343956595,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-70.814738955091,41.2537250417456,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.4474200460125,29.2449194633464,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.9096623900093,29.7042090559061,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-90.9077236678078,29.0542269481479,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-171.732952459703,25.7626609138555,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.0719184515025,29.5444799913932,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.9289622761216,29.2809111224624,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-80.6378239996998,28.1987976670347,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.2670572538566,24.6640071392182,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-169.510042261198,63.3735619161435,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-89.4321340200476,30.1395531278532,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.9546309595971,30.2140564581938,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-171.116961887833,63.6068227036412,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.361864775884,66.4328057616624,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-81.4174212293682,24.6533667706927,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-178.291699313586,28.3939842131988,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.463089917284,66.4145378250972,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-173.963562968739,26.0646226554005,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-167.997933403237,25.0097111290349,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-164.704757377972,23.5755686254273,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-82.1200735729096,24.5550814335052,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-161.943450692363,23.0432803253588,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-88.9741954543947,29.6357282587045,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-171.081970559901,63.6031965206565,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
+-165.333804821051,66.4384850300356,"227",United States,Country,United States,English,,,"1","0","0","0","0","0","0",English
 63.3895783013575,41.3714300493666,"228",Uzbekistan,Sovereign country,Uzbekistan,Uzbek,Karakalpakstani,,"0","0","0","0","0","0","0",Other
 71.0981818020097,40.0151290273272,"228",Uzbekistan,Sovereign country,Uzbekistan,Uzbek,Karakalpakstani,,"0","0","0","0","0","0","0",Other
 71.7260861844421,39.9476410164593,"228",Uzbekistan,Sovereign country,Uzbekistan,Uzbek,Karakalpakstani,,"0","0","0","0","0","0","0",Other
@@ -3923,27 +3923,27 @@ X,Y,OBJECTID,SOVEREIGNT,TYPE_,COUNTRY,FIRST_OFFI,SECOND_OFF,THIRD_OFFI,ENGLISH_F
 120.073431254923,23.4916044146379,"221",Taiwan,Sovereign country,Taiwan,Standard Chinese or Mandarin,,,"0","0","0","0","0","1","0",Chinese
 121.480937372,22.6573343314369,"221",Taiwan,Sovereign country,Taiwan,Standard Chinese or Mandarin,,,"0","0","0","0","0","1","0",Chinese
 119.577095275444,23.6515559969035,"221",Taiwan,Sovereign country,Taiwan,Standard Chinese or Mandarin,,,"0","0","0","0","0","1","0",Chinese
-34.2088638347845,-6.35411785853714,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.3183656841332,-6.08668414000204,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.800664050951,-5.17441217686273,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.7882236898201,-7.81532133503112,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.7412249529496,-8.03840637668827,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.6063075135402,-5.43702449968296,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
-39.2251499461797,-5.81808622340494,"222",United Republic of Tanzania,Sovereign country,United Republic of Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+34.2088638347845,-6.35411785853714,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.3183656841332,-6.08668414000204,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.800664050951,-5.17441217686273,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.7882236898201,-7.81532133503112,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.7412249529496,-8.03840637668827,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.6063075135402,-5.43702449968296,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
+39.2251499461797,-5.81808622340494,"222",Tanzania,Sovereign country,Tanzania,Swahili,English,,"1","0","0","0","0","0","0",English
 32.6841033909465,1.38016782436241,"223",Uganda,Sovereign country,Uganda,English,Swahili,,"1","0","0","0","0","0","0",English
 33.9057132184472,48.3753682949431,"224",Ukraine,Sovereign country,Ukraine,Ukrainian,,,"0","0","0","0","0","0","0",Other
 31.6003831350942,46.2609927433039,"224",Ukraine,Sovereign country,Ukraine,Ukrainian,,,"0","0","0","0","0","0","0",Other
 32.8494191176741,46.040717783816,"224",Ukraine,Sovereign country,Ukraine,Ukrainian,,,"0","0","0","0","0","0","0",Other
 30.0090537960215,45.7415437173102,"224",Ukraine,Sovereign country,Ukraine,Ukrainian,,,"0","0","0","0","0","0","0",Other
--75.0128383884599,18.4056050489407,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
-166.645008818993,19.290228907017,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--177.377546204466,28.2046570919936,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--160.020048531256,-0.379123994269505,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--169.541853164079,16.725409671434,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--169.526803394179,16.7593456331772,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--177.328210683334,28.2093781223684,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--176.479031830334,0.193711488810648,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--176.6372393007,0.796087783271706,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--176.460586824227,0.223883763974881,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
--169.513437456066,16.7449611313733,"225",United States of America,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-75.0128383884599,18.4056050489407,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+166.645008818993,19.290228907017,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-177.377546204466,28.2046570919936,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-160.020048531256,-0.379123994269505,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-169.541853164079,16.725409671434,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-169.526803394179,16.7593456331772,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-177.328210683334,28.2093781223684,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-176.479031830334,0.193711488810648,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-176.6372393007,0.796087783271706,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-176.460586824227,0.223883763974881,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
+-169.513437456066,16.7449611313733,"225",United States,Dependency,United States Minor Outlying Islands,English,,,"1","0","0","0","0","0","0",English
 -55.8186556837271,-32.526631945883,"226",Uruguay,Sovereign country,Uruguay,Spanish,,,"0","0","0","1","0","0","0",Spanish
